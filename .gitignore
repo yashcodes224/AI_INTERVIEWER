@@ -1,0 +1,40 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output (Vite / any bundlers)
+dist/
+client/dist/
+build/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Coverage / cache
+coverage/
+*.cache
+/.turbo/          # if using turborepo-style caches
+/.pnp/
+.pnp.js
+
+# Misc
+*.bak
+*.tmp
